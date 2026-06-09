@@ -53,7 +53,7 @@
           Today, I build backend systems and data infrastructure that organizations can rely on. My work spans data pipelines and database design that turn raw, inconsistent data into something clean and production-ready, RAG systems powered by reliable ingestion and chunking, and backend engineering through APIs, automation workflows, and cloud services built to scale without breaking under pressure.
         </p>
         <p>
-          I care about doing the job right. That means designing systems with intention, implementing solutions that hold up under real-world conditions, and solving the business problem, not just the technical one. When a system is broken, I don't just patch it, I understand why it broke and build something that won't break again.
+          I care about doing the job right. That means designing systems with intention, implementing solutions that hold up under real-world conditions, and solving the business problem, not just the technical one. When a system is broken, I don't just patch it, I understand why it broke.
         </p>
         <p>
           I build systems that work. The work that happens behind the scenes but makes everything else possible.
