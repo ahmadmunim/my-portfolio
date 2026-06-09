@@ -1,0 +1,141 @@
+{
+    "navLinks": [
+        { "label": "About Me", "href": "#about" },
+        { "label": "Services", "href": "#services" },
+        { "label": "Resume", "href": "/resume.pdf" }
+    ],
+
+    "services": [
+        { 
+            "label": "API Design", 
+            "icon": "fa-solid fa-plug", 
+            "desc": "Build clean, well-designed APIs that connect your systems reliably and are easy to maintain as your app grows." 
+        },
+        { 
+            "label": "Cloud Integration", 
+            "icon": "fa-solid fa-cloud", 
+            "desc": "Connect your data and workflows to cloud services that scale with your needs, without any headaches." 
+        },
+        { 
+            "label": "Workflow Automation", 
+            "icon": "fa-solid fa-gears", 
+            "desc": "Eliminate tedious manual processes by automating the steps between your tools." 
+        },
+        { 
+            "label": "Data Pipeline", 
+            "icon": "fa-solid fa-diagram-project", 
+            "desc": "Move, process, and deliver data from source to destination reliably, with integrity." 
+        },
+        { 
+            "label": "RAG Pipeline", 
+            "icon": "fa-solid fa-brain", 
+            "desc": "Build AI systems that answer questions from your own documents accurately, grounded in your data rather than guesswork." 
+        },
+        { 
+            "label": "Data Transformation", 
+            "icon": "fa-solid fa-shuffle", 
+            "desc": "Turn raw, inconsistent data into clean, structured formats your systems and teams can actually work with." 
+        },
+        { 
+            "label": "Data Migration", 
+            "icon": "fa-solid fa-database", 
+            "desc": "Move your data from legacy systems to modern infrastructure with zero data loss and full integrity intact." 
+        },
+        { 
+            "label": "Database Design", 
+            "icon": "fa-solid fa-table", 
+            "desc": "Design databases that are structured for performance, built for scale, and easy to query as your data grows." 
+        }
+    ],
+
+    "skillCategories": [
+        {
+            "id": "languages",
+            "label": "Languages",
+            "icon": "fa-solid fa-code",
+            "description": "Programming languages I work with daily",
+            "skills": [
+                { "name": "Python", "icon": "devicon-python-plain" },
+                { "name": "TypeScript", "icon": "devicon-typescript-plain" },
+                { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+                { "name": "SQL", "icon": "devicon-azuresqldatabase-plain" },
+                { "name": "PHP", "icon": "devicon-php-plain" },
+                { "name": "Java", "icon": "devicon-java-plain" },
+                { "name": "Bash", "icon": "devicon-bash-plain" }
+            ]
+        },
+        {
+            "id": "backend",
+            "label": "Backend",
+            "icon": "fa-solid fa-server",
+            "description": "Frameworks and tools for building backend systems",
+            "skills": [
+                { "name": "Node.js", "icon": "devicon-nodejs-plain-wordmark" },
+                { "name": "Next.js", "icon": "devicon-nextjs-plain" },
+                { "name": "SvelteKit", "icon": "devicon-svelte-plain" },
+                { "name": "Django", "icon": "devicon-django-plain" },
+                { "name": "Wordpress", "icon": "devicon-wordpress-plain" }
+            ]
+        },
+        {
+            "id": "data",
+            "label": "Data Engineering",
+            "icon": "fa-solid fa-database",
+            "description": "Tools and frameworks for data pipelines and infrastructure",
+            "skills": [
+                { "name": "Pandas", "icon": "devicon-pandas-plain" },
+                { "name": "Tensor", "icon": "devicon-tensorflow-original" },
+                { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+                { "name": "MongoDB", "icon": "devicon-mongodb-plain" },
+                { "name": "Supabase", "icon": "devicon-supabase-plain" }
+            ]
+        },
+        {
+            "id": "tools",
+            "label": "Developer Tools",
+            "icon": "fa-solid fa-wrench",
+            "description": "Platforms and tools I use to build and ship",
+            "skills": [
+                { "name": "Docker", "icon": "devicon-docker-plain" },
+                { "name": "Git", "icon": "devicon-git-plain" },
+                { "name": "AWS", "icon": "devicon-amazonwebservices-plain-wordmark" },
+                { "name": "Linux", "icon": "devicon-linux-plain" },
+                { "name": "Postman", "icon": "devicon-postman-plain" },
+                { "name": "Cloudflare", "icon": "devicon-cloudflare-plain" },
+                { "name": "n8n", "icon": "devicon-nodered-plain" },
+                { "name": "Google Colab", "icon": "devicon-googlecolab-plain" }
+            ]
+        }
+    ],
+
+    "experiences": [
+        { 
+            "title": "Data Engineering Intern", 
+            "company": "WECCC", 
+            "problem": "No reliable way to migrate legacy survey and user data into a modern database. Datasets were inconsistent, PII was stored in plaintext, and there was no automated migration process in place.",
+            "solution": "Built a full ETL pipeline to migrate 1,200+ user profiles and survey responses into new platform, with automated validation, schema mapping, deduplication, and an encryption module for sensitive PII fields.",
+            "impact": "Zero data loss, preserved the organization's full survey history, eliminated manual migration work, and hardened data security."
+        },
+        { 
+            "title": "Data Engineer", 
+            "company": "Scelta",
+            "problem": "Construction teams relied on physical binders and documents to find project information which slowed down their workflow. Needed a reliable, document-grounded AI system that could answer project questions more accurately than a general-purpose tool like ChatGPT",
+            "solution": "Architected and built a RAG pipeline, designing the parsing, and chunking stages that turned raw construction documents into a reliable, queryable knowledge base. Automated metadata extraction, rollback on document upload failure, and stale embedding cleanup.",
+            "impact": "Delivered a RAG pipeline handling 100+ page documents end-to-end. Reduced vector store noise by 50%. Made document uploads failure-safe. Increased document retrieval relevance by 25%"    
+        },
+        { 
+            "title": "Apriori & MinHash Optimization", 
+            "company": "Personal Project",
+            "problem": "Standard Apriori had unsustainable memory costs at scale, and traditional MinHash produced similarity matches driven by generic words rather than semantically meaningful ones.",
+            "solution": "Re-implemented Apriori using a Trie data structure to reduce memory usage, and built a Weighted MinHash algorithm that biased similarity scoring toward sentiment-rich tokens using ratings and recommendation flags.",
+            "impact": "35% reduction in memory usage over baseline Apriori. Weighted MinHash retrieved more semantically relevant matches across 250 pairwise comparisons."
+        },
+        { 
+            "title": "AI Engineer Intern", 
+            "company": "Glendor",
+            "problem": "Needed to know whether open-source LLMs could reliably extract PHI from medical records, but had no benchmarking framework and no efficient way to run evaluations on constrained hardware.",
+            "solution": "Built a prompt engineering and evaluation framework to benchmark LLMs against clinical text, converted XML medical records into plain text for NLP testing, and automated batch execution loops for overnight processing.",
+            "impact": "Automated overnight batch runs eliminated the hardware bottleneck and increased evaluation throughput by 25%." 
+        }
+    ]
+}

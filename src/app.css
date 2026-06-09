@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+:root {
+  --color-bg: #feeee1;
+  --color-surface: #d9bfa8;
+  --color-border: #bc9d71;
+  --color-text-primary: #360800;
+  --color-text-secondary: #360800;
+  --color-accent: #79553d;
+  --color-placeholder: #d9bfa8;
+  --color-text-tertiary: #bc9d71;
+  --title-font: 'Spectral', sans-serif;
+  --header-font: 'Roboto Slab', sans-serif;
+  --body-font: 'Google Sans Flex', sans-serif;
+}
