@@ -23,23 +23,23 @@
       <!-- Left: image collage -->
       <div class="collage" bind:this={collageEl}>
         <div class="collage-img img-top-left" class:animate={visible}>
-          <img src="/img/slideshow/csgames2025-2.jpg" alt="">
+          <img src="/img/slideshow/csgames2025-2.jpg" alt="Ahmad Munim and a man sitting at table using their laptops during CS Games 2025.">
         </div>
 
         <div class="collage-img img-top-right" class:animate={visible}>
-          <img src="/img/slideshow/csgames2023.jpg" alt="">
+          <img src="/img/slideshow/csgames2023.jpg" alt="Ahmad Munim and a man sitting at table during a hackathon. One is looking at his laptop, and Ahmad is looking at the person's laptop.">
         </div>
 
         <div class="collage-img img-mid-left" class:animate={visible}>
-          <img src="/img/slideshow/code.jpg" alt="">
+          <img src="/img/slideshow/code.jpg" alt="Laptop screen showing code editor with code on it.">
         </div>
 
         <div class="collage-img img-bot-right" class:animate={visible}>
-          <img src="/img/slideshow/csgames2025.jpg" alt="">
+          <img src="/img/slideshow/csgames2025.jpg" alt="Ahmad Munim sitting at a table looking at two monitors during CS Games 2025. The main monitor shows a code editor.">
         </div>
 
         <div class="collage-img img-mid-center" class:animate={visible}>
-          <img src="/img/slideshow/csgames2024.jpg" alt="">
+          <img src="/img/slideshow/csgames2024.jpg" alt="Ahmad Munim sitting at a table looking to his left from camera and smiling.">
         </div>
       </div>
 
