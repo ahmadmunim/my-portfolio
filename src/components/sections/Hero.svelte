@@ -31,7 +31,7 @@
       <h1 class="hero-title">
         <span class="role-word" class:fade-out={animating}>{displayedWord}</span>
         <br />
-        <span class="role-static">Engineer</span>
+        <span class="role-static">Developer</span>
       </h1>
 
       <p class="hero-hook">
@@ -45,7 +45,7 @@
       <div class="connect-block">
         <h2 class="connect-heading">Let's Connect!</h2>
         <p class="connect-text">
-          Got a pipeline to build, a system to scale, or a project that needs a reliable engineer? If you have something worth building, let's talk.
+          Got a pipeline to build, a system to scale, or a project that needs a reliable developer? If you have something worth building, let's talk.
         </p>
 
         <div class="social-icons">
